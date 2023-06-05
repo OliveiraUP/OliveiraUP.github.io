@@ -5,7 +5,7 @@ h1 {
 }
 
 .cabecalho-header {
-  background: #70da1c;
+  background: #06f;
 }
 
 .cabecalho {
@@ -15,7 +15,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: 40px 20px;
-  color: #141414;
+  color: #f7f7f7;
 }
 
 .cabecalho-menu {
@@ -27,7 +27,7 @@ h1 {
 
 .cabecalho-menu a {
   text-decoration: none;
-  color: #141414;
+  color: #f7f7f7;
   font-weight: 400;
   font-size: 1.125rem;
   line-height: 1.3;
@@ -47,5 +47,6 @@ h1 {
   .cabecalho a {
     background: #f5f5f5;
     border-radius: 6px;
+    color: #06f;
   }
 }
