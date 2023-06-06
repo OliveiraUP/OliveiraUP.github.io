@@ -57,6 +57,10 @@ a {
   grid-column: 1/-1;
 }
 
+.email a:hover{
+  color: #06f;
+}
+
 @media (max-width: 1000px) {
   .footer-container {
     gap: 40px 20px;
