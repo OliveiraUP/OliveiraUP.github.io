@@ -35,6 +35,21 @@ h1 {
   display: block;
 }
 
+.cabecalho-menu a:after {
+  margin-top: 4px;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #06f;
+  transition: 0.4s;
+}
+
+.cabecalho-menu a:hover:after {
+  width: 100%;
+  background-color: white;
+}
+
 @media (max-width: 750px) {
   .cabecalho {
     flex-direction: column;
@@ -48,5 +63,8 @@ h1 {
     background: #f5f5f5;
     border-radius: 6px;
     color: #06f;
+  }
+  .cabecalho-menu a:hover:after {
+    background-color: #06f;
   }
 }
