@@ -21,7 +21,7 @@ h1 {
 .cabecalho-menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 30px;
   justify-content: center;
 }
 
@@ -65,5 +65,14 @@ h1 {
   }
   .cabecalho-menu a:hover:after {
     background-color: #06f;
+  }
+}
+
+@media (max-width: 600px) {
+  .cabecalho-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-items: center;
   }
 }
