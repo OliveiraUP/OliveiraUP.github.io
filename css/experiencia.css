@@ -84,6 +84,22 @@
   padding: 5px 10px;
 }
 
+.link-projetos {
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  background: linear-gradient(#06f, blueviolet);
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+}
+
+.link-projetos:hover {
+  background: linear-gradient(#09f, blueviolet);
+  border: 2px solid aqua;
+}
+
 @media (max-width: 900px) {
   .experiencia {
     grid-template-columns: 1fr;
